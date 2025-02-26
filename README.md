@@ -52,21 +52,21 @@ This project is designed to analyze tweet data, including retweet counts and fav
 ### **Installation**
 
 1. **Clone the repository**
-
-```sh
-git clone https://github.com/itu-itis22-cetinkayah/tweet-analysis-cpp.git
-cd tweet-analysis-cpp
-```
+    - You can clone the repository using git or download it from Code, Download ZIP
+    ```sh
+    git clone https://github.com/itu-itis22-cetinkayah20/tweet-analysis-cpp.git
+    cd tweet-analysis-cpp
+    ```
 
 2. **Build the project**
-
-```sh
-g++ -g -o bin/tweet src/*.cpp -Iinclude
-make build
-```
+    ```sh
+    g++ -g -o bin/tweet src/*.cpp -Iinclude
+    make build
+    ```
 
 ### **Running the Application**
 - The application will process the tweet data and output the results to the specified CSV files.
+- You can activate the commented code blocks in `main.cpp` to observe the execution times of different algorithms.
 ```sh
 ./bin/tweet
 ```
