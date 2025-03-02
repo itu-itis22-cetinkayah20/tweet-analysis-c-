@@ -17,9 +17,9 @@
 *.pch
 
 # Libraries
-#*.lib
-#*.a
-#*.la
+*.lib
+*.a
+*.la
 3*.lo
 
 # Shared objects (inc. Windows DLLs)
