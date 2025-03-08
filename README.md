@@ -38,6 +38,21 @@ This project is designed to analyze tweet data, including retweet counts and fav
 │── README.md                 # Documentation
 ```
 
+## **Algorithms Used**
+
+### **Sorting Algorithms**
+
+- **Bubble Sort**: Implemented in both ascending and descending order. This algorithm repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
+- **Insertion Sort**: Implemented in both ascending and descending order. This algorithm builds the sorted array one item at a time, with the assumption that the first item is already sorted.
+- **Merge Sort**: Implemented in both ascending and descending order. This algorithm divides the array into halves, recursively sorts them, and then merges the sorted halves.
+
+### **Search Algorithms**
+
+- **Binary Search**: This algorithm finds the position of a target value within a sorted array. It compares the target value to the middle element of the array and eliminates half of the array from consideration.
+
+### **Metrics Calculation**
+
+- **Count Above Threshold**: This function counts the number of tweets that have a metric value (e.g., retweet count, favorite count) above a specified threshold.
 
 ---
 
